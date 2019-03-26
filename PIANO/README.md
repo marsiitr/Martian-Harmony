@@ -29,17 +29,21 @@ Piano Playing Bot is a robot which replicates the mechanism by which a human bei
  9. Breadboards and plenty of jumpers.(Male to Male, Male to Female, Female to Female)
  10. Digital Multi Meter
  11. Switches
- ## Importance of various components
-#### Stepper Motor:
+## Importance of various components
+#### 1. Stepper Motor:
 A stepper motor is a brushless electric DC motor that divides a full rotation into a number of equal steps. The motor's position can then be commanded to move and hold at one of these steps without any feedback sensor, as long as the motor is carefully sized to the application in respect to torque and speed. It is used to control the pressure of air coming from vacuum cleaner blown into the flute.
-#### Arduino: 
+#### 2. Arduino: 
 Arduino is an open source, computer hardware and software company, project, and user community that designs and manufactures single-board micro-controllers and micro-controller kits for building digital devices and interactive objects that can sense and control objects in the physical world.
-#### Solenoid Valves: 
+#### 3. Solenoid Valves: 
 A solenoid valve is an electro-mechanical controlled valve. The valve features a solenoid, which is an electric coil with a movable ferromagnetic core in its center. This core is called the plunger. In rest position, the plunger closes off a small orifice. An electric current through the coil creates a magnetic field. The magnetic field exerts a force on the plunger. As a result, the plunger is pulled toward the center of the coil so that the orifice opens. This is the basic principle that is used to open and close solenoid valves.
-#### Relay Switches: 
+#### 4. Relay Switches: 
 Relays are switches that open and close circuits electro-mechanically or electronically. Relays control one electrical circuit by opening and closing contacts in another circuit. As relay diagrams show, when a relay contact is normally open (NO), there is an open contact when the relay is not energized. When a relay contact is Normally Closed (NC), there is a closed contact when the relay is not energized. In either case, applying electrical current to the contacts will change their state.
-#### Motor Drivers: 
+#### 5. Motor Drivers: 
 A motor driver is a little current amplifier; the function of motor drivers is to take a low-current control signal and then turn it into a higher-current signal that can drive a motor.
 ## Design and Control
-First of all mount keyboard on the big wooden board, so that it does not get displaced from its position. Take the measurements of keys and wooden base (mount the U-shaped stand perpendicular to its surface along its one edge) such that it can cover 5 consecutive keys. Mount the fingers of the hand as WBWBW where W stands for shorter finger for white keys and B stands for longer finger for black keys. Mounting is done with the help of threaded rod that mates through holes in the clamp, 5 fingers and optimum number of nuts. Now place all keys at an appropriate distance from each other, such that they cover one key each (You can use Tape to create distance or something which doesn't allow them to move from their place, but make sure they are free to rotate). Fix this entire structure on a linear rails fixed parallel on wooden board with the help of linear guides such that it is able to slide along the rails. Stick all the solenoids on the back of the hand base exactly under the fingered structures (with the help of aluminium channels) such that when current is passed through them, they push the fingers and the key is pressed (See-saw mechanism). Attach the pinions to the shafts of Stepper Motors. Attach the rack to the movable part of hands. Mount each stepper on either side of the keyboard and mount the slider using wooden blocks such that the rack and pinion work smoothly and all the keys are pressed properly.
-Make the circuits using relays and ULN such that each relay controls a solenoid. Connect all solenoids to relay so that relay work as a switch.Use motor drivers to drive the steppers.Male all connections to Arduino Mega. Power the circuits using 12V/5A adapters. Upload the files to Arduino and you are ready to rock.
+* First of all mount keyboard on the big wooden board, so that it does not get displaced from its position. Take the measurements of keys and wooden base (mount the U-shaped stand perpendicular to its surface along its one edge) such that it can cover 5 consecutive keys.
+* Mount the fingers of the hand as WBWBW where W stands for shorter finger for white keys and B stands for longer finger for black keys. Mounting is done with the help of threaded rod that mates through holes in the clamp, 5 fingers and optimum number of nuts. 
+* Now place all keys at an appropriate distance from each other, such that they cover one key each (You can use Tape to create distance or something which doesn't allow them to move from their place, but make sure they are free to rotate). Fix this entire structure on a linear rails fixed parallel on wooden board with the help of linear guides such that it is able to slide along the rails. 
+* Stick all the solenoids on the back of the hand base exactly under the fingered structures (with the help of aluminium channels) such that when current is passed through them, they push the fingers and the key is pressed (See-saw mechanism). Attach the pinions to the shafts of Stepper Motors. 
+* Attach the rack to the movable part of hands. Mount each stepper on either side of the keyboard and mount the slider using wooden blocks such that the rack and pinion work smoothly and all the keys are pressed properly.
+* Make the circuits using relays and ULN such that each relay controls a solenoid. Connect all solenoids to relay so that relay work as a switch.Use motor drivers to drive the steppers.Male all connections to Arduino Mega. Power the circuits using 12V/5A adapters. Upload the files to Arduino and you are ready to rock.
