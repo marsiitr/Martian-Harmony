@@ -27,13 +27,16 @@ Flute Playing Bot is a robot which replicates the mechanism by which a human bei
  9. Heat Sink
  10. Male to Female Jumper wires - for wiring purposes.
 ## Importance of various components
-#### Servo Motors:
+#### 1. Servo Motors:
 A servo motor is a rotary actuator or linear actuator that allows for precise control of angular or linear position, velocity and acceleration. It consists of a suitable motor coupled to a sensor for position feedback. In Flute, the servo motors are used to rotate the sticks in order to open and close the holes for different chords.
-#### Stepper Motor:
+#### 2. Stepper Motor:
 A stepper motor is a brushless electric DC motor that divides a full rotation into a number of equal steps. The motor's position can then be commanded to move and hold at one of these steps without any feedback sensor, as long as the motor is carefully sized to the application in respect to torque and speed. It is used to control the pressure of air coming from vacuum cleaner blown into the flute.
-#### Vacuum Cleaner:
+#### 3. Vacuum Cleaner:
 It is used to blow the air into flute in controlled amount with the help of rack and pinion system and stepper motor.
-#### Arduino:
+#### 4. Arduino:
 Arduino is an open source, computer hardware and software company, project, and user community that designs and manufactures single-board microcontrollers and microcontroller kits for building digital devices and interactive objects that can sense and control objects in the physical world.
 ## Design and Control
-Servo motors and stepper motors are controlled using Arduino-MEGA 2560. The information of the different chords playing for different duration as well as which holes are to be opened to produce different chords or equivalently which servo motor is to be at which angle for particular duration is feed to Arduino.The vacuum cleaner supplies air to the flute with the help of two pipes with one pipe going to flute and another going to rack and pinion system. The pressure control information is taken manually by varying the scale mounted on rack and pinion system and the length of the scale at different chords (the steps required by stepper motor to reach that length) is also programmed. The wooden sticks with thermocol are mounted on servo motor such that the hole is completely covered. When power is supplied, the arduino, with the help of the programmed code decides the position of servo motors as well as the stepper motor for different time intervals and produces the appropriate sound at appropriate time, thus playing the tone of a song with perfection. ** Software related details can be found in Readme.md file in the parent folder. **
+Servo motors and stepper motors are controlled using Arduino-MEGA 2560. The information of the different chords playing for different duration as well as which holes are to be opened to produce different chords or equivalently which servo motor is to be at which angle for particular duration is feed to Arduino.
+The vacuum cleaner supplies air to the flute with the help of two pipes with one pipe going to flute and another going to rack and pinion system. The pressure control information is taken manually by varying the scale mounted on rack and pinion system and the length of the scale at different chords (the steps required by stepper motor to reach that length) is also programmed. 
+The wooden sticks with thermocol are mounted on servo motor such that the hole is completely covered. When power is supplied, the arduino, with the help of the programmed code decides the position of servo motors as well as the stepper motor for different time intervals and produces the appropriate sound at appropriate time, thus playing the tone of a song with perfection. 
+**Software related details can be found in Readme.md file in the parent folder.**
