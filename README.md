@@ -8,6 +8,7 @@ The idea was to build a robot that can play musical instruments in the same fash
 5. Shukshi Raj <br/>
 6. Aniket Kumar <br/>
 7. Shivansh Mathur <br/>
+8. Rishiraj Gupta <br/>
 ## Team Mentors:
 1. Pratikesh Thakur <br/>
 2. Avdesh Ranwa <br/>
