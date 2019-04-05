@@ -1,6 +1,14 @@
 # Martian-Harmony
 Srishti 2019 <br/>
 The idea was to build a robot that can play musical instruments in the same fashion as humans. It consists of various instruments like Flute, Keyboard, Guitar, etc. All these instruments are being played using different mechanisms.
+![alt text](https://github.com/visvash/Martian-Harmony/blob/master/Images%20and%20Videos/Flute/flute%20setup.jpg "Flute playing bot")
+<br/>
+To read about the working of Flute Playing Bot, click [here.](https://github.com/visvash/Martian-Harmony/blob/master/Src/Flute/README.md "Martian-Harmony Flute Playing Bot")
+<br/>
+![alt text](https://github.com/visvash/Martian-Harmony/blob/master/Images%20and%20Videos/Piano/piano_setup.jpg "Piano playing bot")
+<br/>
+To read about working of Piano Playing Bot, click [here.](https://github.com/visvash/Martian-Harmony/blob/master/Src/Piano/README.md "Martian-Harmony Piano Playing Bot")
+<br/>
 ## Motivation:
 This is a really good combination of robotics and music. There are many people who don't know how to play instruments but appreciate good music, this band could help those people live their dreams. It could also be used for teaching puposes. It could even be used for fun purposes.
 ## Software Information Basics:
