@@ -1,6 +1,5 @@
 # Martian-Harmony
-Srishti 2019
-# Martian-Harmony-4.0
+Srishti 2019 <br/>
 The idea was to build a robot that can play musical instruments in the same fashion as humans. It consists of various instruments like Flute, Keyboard, Guitar, etc. All these instruments are being played using different mechanisms.
 ## Team Members:
 1. Aniket Kumar <br/>
