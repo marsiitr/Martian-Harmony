@@ -5,6 +5,7 @@ The idea was to build a robot that can play musical instruments in the same fash
 <br/>
 To read about the working of Flute Playing Bot, click [here.](https://github.com/visvash/Martian-Harmony/blob/master/Src/Flute/README.md "Martian-Harmony Flute Playing Bot")
 <br/>
+
 ![alt text](https://github.com/visvash/Martian-Harmony/blob/master/Images%20and%20Videos/Piano/piano_setup.jpg "Piano playing bot")
 <br/>
 To read about working of Piano Playing Bot, click [here.](https://github.com/visvash/Martian-Harmony/blob/master/Src/Piano/README.md "Martian-Harmony Piano Playing Bot")
@@ -18,7 +19,7 @@ This is a really good combination of robotics and music. There are many people w
 * We did this for a few songs as only a good MIDI file was available for these much songs and for other songs either the MIDI was not available or a lot of noise was present in the MIDI file. Through MIDI files proper node times were given to the particular instruments.We have to code the instruments using arduino for those particular nodes.Check individual codes for this purpose.
 ## Cost structure:
 ### Flute:
-|   Item used   | Quantity | Cost |
+|   Item used   | Quantity | Cost (inr) |
 |---------------|----------|------|
 | Stepper motor |  700 x1  | 700  |
 |  Servo motor  |  120 x7  | 840  |
@@ -35,11 +36,11 @@ This is a really good combination of robotics and music. There are many people w
 |  Rubber Pipe  |  200 x1  | 200  |
 |    T-valve    |  200 x1  | 200  |
 | Miscellaneous |   350    | 150  |
-|     TOTAL PRICE (inr)   || 5860 |
+|     TOTAL PRICE    || 5860 |
 
 ### Piano:
 
-|   Item used   | Quantity | Cost |
+|   Item used   | Quantity | Cost (inr) |
 |---------------|----------|------|
 |Solenoidal Motors| 534 x10| 5340 |
 | Stepper Motor | 1345 x2  | 2690 |
@@ -55,7 +56,7 @@ This is a really good combination of robotics and music. There are many people w
 | Arduino Mega  |  885 x1  | 885  |
 | Jumper Wires  |    3 x150| 450  |
 | Miscellaneous |   1500   | 1500 |
-|     TOTAL PRICE (inr)   || 18560 |
+|     TOTAL PRICE    || 18560 |
 
 ## Team Members:
 1. Aniket Kumar <br/>
@@ -71,3 +72,9 @@ This is a really good combination of robotics and music. There are many people w
 3. Pradhyuman Mathur <br/>
 4. Pratikesh Thakur <br/>
 5. Sarthak Gupta <br/>
+
+
+<p align="center">
+  <img src="https://github.com/visvash/Martian-Harmony/blob/master/Images%20and%20Videos/Flute/team.jpeg">
+  Team Martian Harmony Srishti'19
+</p>
