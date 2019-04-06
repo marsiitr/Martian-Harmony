@@ -36,7 +36,7 @@ This is a really good combination of robotics and music. There are many people w
 |  Rubber Pipe  |  200 x1  | 200  |
 |    T-valve    |  200 x1  | 200  |
 | Miscellaneous |   350    | 150  |
-|     TOTAL PRICE    || 5860 |
+|     TOTAL PRICE    || 5760 |
 
 ### Piano:
 
